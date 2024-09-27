@@ -15,9 +15,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: absolute;
+    
     width: 50%;
     height: 100vh;
     background-color: red;
+    backdrop-filter: blur(5px);
 }
 
 .general__content {
@@ -34,7 +37,13 @@ body {
 .general__form {
     display: flex;
     flex-direction: column;
+
+    gap: 10px;
+    width: 80%;
+
+
 }
+
 
 .general__content-title {
     font-size: 32px;
@@ -42,4 +51,25 @@ body {
     font-weight: 600;
     font-style: normal;
     letter-spacing: 5px;
+    
+}
+
+p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.case {
+    position: absolute;
+    top: 500px ;
+}
+
+.btn-group{
+    position: relative;
+    bottom: -120px;
+    display: flex;
+    flex-direction: column;  
+    height: 100px;
+gap:20px;
+text-align: center;
 }
