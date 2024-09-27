@@ -1,4 +1,11 @@
-.general {}
+.general {
+    background-color: aqua;
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
 
 
 .ecran {}
@@ -6,3 +13,7 @@
 
 
 form {}
+
+.check {}
+
+.link {}
